@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047D080726610D4B008B33D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D080626610D4B008B33D3 /* AppDelegate.swift */; };
+		047D080926610D4B008B33D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D080826610D4B008B33D3 /* SceneDelegate.swift */; };
+		047D080B26610D4B008B33D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D080A26610D4B008B33D3 /* ViewController.swift */; };
+		047D080E26610D4B008B33D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047D080C26610D4B008B33D3 /* Main.storyboard */; };
+		047D081026610D4F008B33D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047D080F26610D4F008B33D3 /* Assets.xcassets */; };
+		047D081326610D4F008B33D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047D081126610D4F008B33D3 /* LaunchScreen.storyboard */; };
+		047D081E26610D50008B33D3 /* TheSuperMarketMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D081D26610D50008B33D3 /* TheSuperMarketMVVMTests.swift */; };
+		047D082926610D50008B33D3 /* TheSuperMarketMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D082826610D50008B33D3 /* TheSuperMarketMVVMUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047D081A26610D50008B33D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047D07FB26610D4B008B33D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047D080226610D4B008B33D3;
+			remoteInfo = TheSuperMarketMVVM;
+		};
+		047D082526610D50008B33D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047D07FB26610D4B008B33D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047D080226610D4B008B33D3;
+			remoteInfo = TheSuperMarketMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047D080326610D4B008B33D3 /* TheSuperMarketMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSuperMarketMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047D080626610D4B008B33D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047D080826610D4B008B33D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		047D080A26610D4B008B33D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047D080D26610D4B008B33D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047D080F26610D4F008B33D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047D081226610D4F008B33D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047D081426610D4F008B33D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047D081926610D50008B33D3 /* TheSuperMarketMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSuperMarketMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047D081D26610D50008B33D3 /* TheSuperMarketMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSuperMarketMVVMTests.swift; sourceTree = "<group>"; };
+		047D081F26610D50008B33D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047D082426610D50008B33D3 /* TheSuperMarketMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSuperMarketMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047D082826610D50008B33D3 /* TheSuperMarketMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSuperMarketMVVMUITests.swift; sourceTree = "<group>"; };
+		047D082A26610D50008B33D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047D080026610D4B008B33D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047D081626610D50008B33D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047D082126610D50008B33D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047D07FA26610D4B008B33D3 = {
+			isa = PBXGroup;
+			children = (
+				047D080526610D4B008B33D3 /* TheSuperMarketMVVM */,
+				047D081C26610D50008B33D3 /* TheSuperMarketMVVMTests */,
+				047D082726610D50008B33D3 /* TheSuperMarketMVVMUITests */,
+				047D080426610D4B008B33D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047D080426610D4B008B33D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047D080326610D4B008B33D3 /* TheSuperMarketMVVM.app */,
+				047D081926610D50008B33D3 /* TheSuperMarketMVVMTests.xctest */,
+				047D082426610D50008B33D3 /* TheSuperMarketMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047D080526610D4B008B33D3 /* TheSuperMarketMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				047D080626610D4B008B33D3 /* AppDelegate.swift */,
+				047D080826610D4B008B33D3 /* SceneDelegate.swift */,
+				047D080A26610D4B008B33D3 /* ViewController.swift */,
+				047D080C26610D4B008B33D3 /* Main.storyboard */,
+				047D080F26610D4F008B33D3 /* Assets.xcassets */,
+				047D081126610D4F008B33D3 /* LaunchScreen.storyboard */,
+				047D081426610D4F008B33D3 /* Info.plist */,
+			);
+			path = TheSuperMarketMVVM;
+			sourceTree = "<group>";
+		};
+		047D081C26610D50008B33D3 /* TheSuperMarketMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				047D081D26610D50008B33D3 /* TheSuperMarketMVVMTests.swift */,
+				047D081F26610D50008B33D3 /* Info.plist */,
+			);
+			path = TheSuperMarketMVVMTests;
+			sourceTree = "<group>";
+		};
+		047D082726610D50008B33D3 /* TheSuperMarketMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047D082826610D50008B33D3 /* TheSuperMarketMVVMUITests.swift */,
+				047D082A26610D50008B33D3 /* Info.plist */,
+			);
+			path = TheSuperMarketMVVMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047D080226610D4B008B33D3 /* TheSuperMarketMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047D082D26610D50008B33D3 /* Build configuration list for PBXNativeTarget "TheSuperMarketMVVM" */;
+			buildPhases = (
+				047D07FF26610D4B008B33D3 /* Sources */,
+				047D080026610D4B008B33D3 /* Frameworks */,
+				047D080126610D4B008B33D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheSuperMarketMVVM;
+			productName = TheSuperMarketMVVM;
+			productReference = 047D080326610D4B008B33D3 /* TheSuperMarketMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047D081826610D50008B33D3 /* TheSuperMarketMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047D083026610D50008B33D3 /* Build configuration list for PBXNativeTarget "TheSuperMarketMVVMTests" */;
+			buildPhases = (
+				047D081526610D50008B33D3 /* Sources */,
+				047D081626610D50008B33D3 /* Frameworks */,
+				047D081726610D50008B33D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047D081B26610D50008B33D3 /* PBXTargetDependency */,
+			);
+			name = TheSuperMarketMVVMTests;
+			productName = TheSuperMarketMVVMTests;
+			productReference = 047D081926610D50008B33D3 /* TheSuperMarketMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047D082326610D50008B33D3 /* TheSuperMarketMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047D083326610D50008B33D3 /* Build configuration list for PBXNativeTarget "TheSuperMarketMVVMUITests" */;
+			buildPhases = (
+				047D082026610D50008B33D3 /* Sources */,
+				047D082126610D50008B33D3 /* Frameworks */,
+				047D082226610D50008B33D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047D082626610D50008B33D3 /* PBXTargetDependency */,
+			);
+			name = TheSuperMarketMVVMUITests;
+			productName = TheSuperMarketMVVMUITests;
+			productReference = 047D082426610D50008B33D3 /* TheSuperMarketMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047D07FB26610D4B008B33D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					047D080226610D4B008B33D3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					047D081826610D50008B33D3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 047D080226610D4B008B33D3;
+					};
+					047D082326610D50008B33D3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 047D080226610D4B008B33D3;
+					};
+				};
+			};
+			buildConfigurationList = 047D07FE26610D4B008B33D3 /* Build configuration list for PBXProject "TheSuperMarketMVVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047D07FA26610D4B008B33D3;
+			productRefGroup = 047D080426610D4B008B33D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047D080226610D4B008B33D3 /* TheSuperMarketMVVM */,
+				047D081826610D50008B33D3 /* TheSuperMarketMVVMTests */,
+				047D082326610D50008B33D3 /* TheSuperMarketMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047D080126610D4B008B33D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D081326610D4F008B33D3 /* LaunchScreen.storyboard in Resources */,
+				047D081026610D4F008B33D3 /* Assets.xcassets in Resources */,
+				047D080E26610D4B008B33D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047D081726610D50008B33D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047D082226610D50008B33D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047D07FF26610D4B008B33D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D080B26610D4B008B33D3 /* ViewController.swift in Sources */,
+				047D080726610D4B008B33D3 /* AppDelegate.swift in Sources */,
+				047D080926610D4B008B33D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047D081526610D50008B33D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D081E26610D50008B33D3 /* TheSuperMarketMVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047D082026610D50008B33D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D082926610D50008B33D3 /* TheSuperMarketMVVMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047D081B26610D50008B33D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047D080226610D4B008B33D3 /* TheSuperMarketMVVM */;
+			targetProxy = 047D081A26610D50008B33D3 /* PBXContainerItemProxy */;
+		};
+		047D082626610D50008B33D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047D080226610D4B008B33D3 /* TheSuperMarketMVVM */;
+			targetProxy = 047D082526610D50008B33D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047D080C26610D4B008B33D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047D080D26610D4B008B33D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047D081126610D4F008B33D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047D081226610D4F008B33D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047D082B26610D50008B33D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047D082C26610D50008B33D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047D082E26610D50008B33D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3S52E49Y3;
+				INFOPLIST_FILE = TheSuperMarketMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheSuperMarketMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047D082F26610D50008B33D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3S52E49Y3;
+				INFOPLIST_FILE = TheSuperMarketMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheSuperMarketMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047D083126610D50008B33D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3S52E49Y3;
+				INFOPLIST_FILE = TheSuperMarketMVVMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheSuperMarketMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSuperMarketMVVM.app/TheSuperMarketMVVM";
+			};
+			name = Debug;
+		};
+		047D083226610D50008B33D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3S52E49Y3;
+				INFOPLIST_FILE = TheSuperMarketMVVMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheSuperMarketMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSuperMarketMVVM.app/TheSuperMarketMVVM";
+			};
+			name = Release;
+		};
+		047D083426610D50008B33D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3S52E49Y3;
+				INFOPLIST_FILE = TheSuperMarketMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheSuperMarketMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheSuperMarketMVVM;
+			};
+			name = Debug;
+		};
+		047D083526610D50008B33D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3S52E49Y3;
+				INFOPLIST_FILE = TheSuperMarketMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheSuperMarketMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheSuperMarketMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047D07FE26610D4B008B33D3 /* Build configuration list for PBXProject "TheSuperMarketMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047D082B26610D50008B33D3 /* Debug */,
+				047D082C26610D50008B33D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047D082D26610D50008B33D3 /* Build configuration list for PBXNativeTarget "TheSuperMarketMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047D082E26610D50008B33D3 /* Debug */,
+				047D082F26610D50008B33D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047D083026610D50008B33D3 /* Build configuration list for PBXNativeTarget "TheSuperMarketMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047D083126610D50008B33D3 /* Debug */,
+				047D083226610D50008B33D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047D083326610D50008B33D3 /* Build configuration list for PBXNativeTarget "TheSuperMarketMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047D083426610D50008B33D3 /* Debug */,
+				047D083526610D50008B33D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047D07FB26610D4B008B33D3 /* Project object */;
+}
